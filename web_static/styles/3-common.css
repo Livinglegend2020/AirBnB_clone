@@ -3,16 +3,17 @@
  */
 
 /* Body style */
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body {
+footer {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    margin-top: auto;
+    align-items: center;
+    
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #484848;
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    flex-direction: row;
+    justify-content: center;
+
+    border-top: 1px #CCCCCC solid;
 }
